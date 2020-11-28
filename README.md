@@ -1,6 +1,9 @@
 # pocketpt
 A single-source GLSL path tracer in [111 lines of code](pocketpt.cpp), based on [Kevin Beason's smallpt](http://kevinbeason.com/smallpt).
 
+<img src="img/1080p-10K.png" width="600">
+
+
 ## Usage 
 
 Platform: Windows
@@ -9,9 +12,9 @@ Make: `g++ -O3 pocketpt.cpp -o pocketpt -lopengl32 -lgdi32`
 
 Run:  `./pocketpt <samplesPerPixel=1000> <y-resolution=400>`
 
-## Output
+## Performance
 
-The following shows the result renderings at 1080p resolution and different number of samples per pixel achieved on a Core i7-8565U CPU with Intel UHD 620 Onboard Graphics (click to enlarge).
+The following shows the timings and result renderings at 1080p resolution and different number of samples per pixel achieved on a Core i7-8565U CPU with Intel UHD 620 Onboard Graphics (click to enlarge).
 
 <img src="img/1080p-16.png" width="200">|<img src="img/1080p-80.png" width="200"> |<img src="img/1080p-400.png" width="200">  | <img src="img/1080p-2K.png" width="200"> | <img src="img/1080p-10K.png" width="200">
 ------- | ------- | ------- | -------- | ---------
