@@ -11,9 +11,12 @@ Run:  `./pocketpt <samplesPerPixel=1000> <y-resolution=400>`
 
 ## Output
 
+The following shows the results for 1080p resolution an different number of samples per pixel achieved on a Core i7-8565U CPU with Intel UHD 620 Onboard Graphics (click to enlarge).
+
 <img src="img/1080p-16.png" width="200">|<img src="img/1080p-80.png" width="200"> |<img src="img/1080p-400.png" width="200">  | <img src="img/1080p-2K.png" width="200"> | <img src="img/1080p-10K.png" width="200">
 ------- | ------- | ------- | -------- | ---------
 16 spp  | 80 spp  | 400 spp | 2000 spp | 10000 spp
+6 sec   | 25 sec  | 114 sec | 10 min   | 48 min 
 
 
 ## Implementation Notes
