@@ -18,6 +18,7 @@ The following shows the timings and result renderings at 1080p resolution and di
 
 <img src="img/1080p-16.png" width="200">|<img src="img/1080p-80.png" width="200"> |<img src="img/1080p-400.png" width="200">  | <img src="img/1080p-2K.png" width="200"> | <img src="img/1080p-10K.png" width="200">
 ------- | ------- | ------- | -------- | ---------
+<img src="img/zoom-1080p-16.png" width="200">|<img src="img/zoom-1080p-80.png" width="200"> |<img src="img/zoom-1080p-400.png" width="200">  | <img src="img/zoom-1080p-2K.png" width="200"> | <img src="img/zoom-1080p-10K.png" width="200">
 16 spp  | 80 spp  | 400 spp | 2000 spp | 10000 spp
 6 sec   | 25 sec  | 114 sec | 10 min   | 48 min 
 
