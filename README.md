@@ -14,7 +14,7 @@ Run:  `./pocketpt <samplesPerPixel=1000> <y-resolution=400>`
 
 ## Performance
 
-The following shows the timings and result renderings at 1080p resolution and different number of samples per pixel achieved on a Core i7-8565U CPU with Intel UHD 620 Onboard Graphics (click to enlarge).
+The following shows the timings and result renderings at 1620x1080 resolution and different number of samples per pixel achieved on a Core i7-8565U CPU with Intel UHD 620 Onboard Graphics (click to enlarge).
 
 <img src="img/1080p-16.png" width="200">|<img src="img/1080p-80.png" width="200"> |<img src="img/1080p-400.png" width="200">  | <img src="img/1080p-2K.png" width="200"> | <img src="img/1080p-10K.png" width="200">
 ------- | ------- | ------- | -------- | ---------
@@ -29,4 +29,4 @@ The GLSL path tracing code is generally performed in float precision, with the e
 
 
 ## 
-Special Thanks go to Peter Houska.
+Special Thanks go to Peter Houska, and of course Kevin Beason for publishing the original code.
