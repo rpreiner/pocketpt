@@ -6,7 +6,7 @@ A single-source GLSL path tracer in [111 lines of code](pocketpt.cpp), based on 
 
 ## Usage 
 
-Platform: Windows
+Platform: Windows (tested on MinGW 64 and GCC version 8.1.0)
 
 Make: `g++ -O3 pocketpt.cpp -o pocketpt -lopengl32 -lgdi32`
 
