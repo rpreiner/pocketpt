@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
                     if(d < t) { t=d; obj = s; } 
                 } 
                 if (t < inf) {                  // object hit
-                    vec3 x = r.o + r.d * float(t), n = normalize(x-obj.geo.xyz), nl = dot(n,r.d)<0 ? n : -n;
+                    vec3 x = r.o + r.d*t, n = normalize(x-obj.geo.xyz), nl = dot(n,r.d)<0 ? n : -n;
                     float p = max(max(obj.c.x, obj.c.y), obj.c.z);  // max reflectance
                     accrad += accmat*obj.e;
                     accmat *= obj.c.xyz;
